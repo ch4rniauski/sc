@@ -25,10 +25,7 @@ namespace laba8.Forms
         private void button1_Click(object sender, EventArgs e)
         {
             if (RemoveSpaces(textBox1.Text) == "")
-            {
                 ErrorWarning();
-                textBox1.Clear();
-            }
 
             else
             {
@@ -56,7 +53,8 @@ namespace laba8.Forms
                 }
             }
 
-            label1.Text = str;
+            label1.Text = $"Изначальный текст: \"{textBox1.Text}\"\n";
+            label1.Text += $"Измененный текст: \"{str}\"";
         }
 
         private async void ErrorWarning()

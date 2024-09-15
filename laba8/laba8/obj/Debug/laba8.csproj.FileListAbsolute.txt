@@ -11,3 +11,4 @@ D:\university\sc\laba8\laba8\obj\Debug\laba8.MainForm.resources
 D:\university\sc\laba8\laba8\obj\Debug\laba8.Task1Form.resources
 D:\university\sc\laba8\laba8\obj\Debug\laba8.Forms.Task2Form.resources
 D:\university\sc\laba8\laba8\obj\Debug\laba8.Forms.Task3Form.resources
+D:\university\sc\laba8\laba8\obj\Debug\laba8.Forms.Task4Form.resources

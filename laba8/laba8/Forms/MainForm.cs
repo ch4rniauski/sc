@@ -35,6 +35,16 @@ namespace laba8
         {
             this.Hide();
 
+            Task4Form task4 = new Task4Form();
+            task4.ShowDialog();
+
+            this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
             Task3Form task3 = new Task3Form();
             task3.ShowDialog();
 

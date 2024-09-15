@@ -70,21 +70,22 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.button3.Location = new System.Drawing.Point(641, 319);
+            this.button3.Location = new System.Drawing.Point(75, 319);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(100, 80);
             this.button3.TabIndex = 3;
-            this.button3.Text = "4";
+            this.button3.Text = "3";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.button4.Location = new System.Drawing.Point(75, 319);
+            this.button4.Location = new System.Drawing.Point(641, 319);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(100, 80);
             this.button4.TabIndex = 4;
-            this.button4.Text = "3";
+            this.button4.Text = "4";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 

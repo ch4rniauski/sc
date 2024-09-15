@@ -15,10 +15,7 @@ namespace laba8
         private void button1_Click(object sender, EventArgs e)
         {
             if (RemoveSpaces(textBox1.Text) == "")
-            {
                 ErrorWarning();
-                textBox1.Clear();
-            }
 
             else
             {
@@ -27,7 +24,7 @@ namespace laba8
 
                 if (textBox1.Text.Length > 5)
                 {
-                    label1.Text = "";
+                    label1.Text = $"Изначальный текст: \"{textBox1.Text}\"\n";
                     label1.Text += $"Первые 3 символа: {textBox1.Text[0]}{textBox1.Text[1]}{textBox1.Text[2]}\n";
                     label1.Text += $"Последние 3 символа: {textBox1.Text[textBox1.Text.Length - 3]}{textBox1.Text[textBox1.Text.Length - 2]}{textBox1.Text[textBox1.Text.Length - 1]}";
                 }

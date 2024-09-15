@@ -52,16 +52,14 @@ namespace laba8.Forms
             string str = textBox1.Text;
 
             if (str.Contains(" ") || IsNumber(ref str))
-            {
                 ErrorWarning();
-                textBox1.Clear();
-            }
 
             else
             {
                 button1.Hide();
                 textBox1.Hide();
-                label1.Text = "";
+                label1.Text = $"Изначальное число: {textBox1.Text}\n";
+                label1.Text += "Данное число в римской системе счисления: ";
 
                 ConvertToRomanNumeralSystem(str);
             }
