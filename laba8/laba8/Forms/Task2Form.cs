@@ -4,20 +4,28 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
-namespace laba8
+namespace laba8.Forms
 {
-    public partial class Task1Form : Form
+    public partial class Task2Form : Form
     {
-        public Task1Form()
+        public Task2Form()
         {
             InitializeComponent();
             label2.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            MainForm form = new MainForm();
+            form.ShowDialog();
+
+            this.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -33,31 +41,22 @@ namespace laba8
                 button1.Hide();
                 textBox1.Hide();
 
-                if (textBox1.Text.Length > 5)
-                {
-                    label1.Text = "";
-                    label1.Text += $"Первые 3 символа: {textBox1.Text[0]}{textBox1.Text[1]}{textBox1.Text[2]}\n";
-                    label1.Text += $"Последние 3 символа: {textBox1.Text[textBox1.Text.Length - 3]}{textBox1.Text[textBox1.Text.Length - 2]}{textBox1.Text[textBox1.Text.Length - 1]}";
-                }
-
-                else
-                {
-                    label1.Text = "";
-
-                    for (int i = 0; i < textBox1.Text.Length; i++)
-                        label1.Text += textBox1.Text[0];
-                }
+                RemoveABCBeforNumber(textBox1.Text);
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void RemoveABCBeforNumber(string str)
         {
-            this.Hide();
+            string strLower = str.ToLower();
 
-            MainForm form = new MainForm();
-            form.ShowDialog();
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (strLower[i] == 'a' && strLower[i + 1] == 'b' && strLower[i + 2] == 'c')
+                    if ((int)strLower[i + 3] >= 48 && (int)strLower[i + 3] <= 57)
+                        str = str.Remove(i, 3);
+            }
 
-            this.Close();
+            label1.Text = str;
         }
 
         private async void ErrorWarning()
