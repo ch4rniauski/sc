@@ -1,12 +1,5 @@
 ﻿using laba8.Forms;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace laba8
@@ -34,6 +27,16 @@ namespace laba8
 
             Task2Form task2 = new Task2Form();
             task2.ShowDialog();
+
+            this.Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            Task3Form task3 = new Task3Form();
+            task3.ShowDialog();
 
             this.Close();
         }

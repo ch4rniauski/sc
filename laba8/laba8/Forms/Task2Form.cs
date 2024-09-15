@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -52,8 +46,14 @@ namespace laba8.Forms
             for (int i = 0; i < str.Length; i++)
             {
                 if (strLower[i] == 'a' && strLower[i + 1] == 'b' && strLower[i + 2] == 'c')
+                {
                     if ((int)strLower[i + 3] >= 48 && (int)strLower[i + 3] <= 57)
+                    {
                         str = str.Remove(i, 3);
+                        strLower = str.ToLower();
+                    }
+
+                }
             }
 
             label1.Text = str;
