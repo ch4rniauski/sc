@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -15,6 +9,56 @@ namespace laba9
         public Form1()
         {
             InitializeComponent();
+            label2.Hide();
+        }
+
+        private int _i = 0;
+        private PRICE[] SPISOK = new PRICE[8];
+
+        private struct PRICE
+        {
+            public string TOVAR { get; set; }
+            public string MAG { get; set; }
+            public decimal STOIM { get; set; }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (RemoveSpaces(textBox1.Text) == "")
+                ErrorWarning();
+
+            else
+            {
+                if (label1.Text.Contains("название") && label1.Text.Contains("товара"))
+                {
+                    SPISOK[_i].TOVAR = textBox1.Text;
+                }
+            }
+        }
+
+        private async void ErrorWarning()
+        {
+            textBox1.Clear();
+            label2.Show();
+            await Task.Delay(2000);
+            label2.Hide();
+        }
+
+        private string RemoveSpaces(string str)
+        {
+            if (str.Contains(" "))
+            {
+                for (int i = 0; i < str.Length; i++)
+                {
+                    if (str[i] == ' ')
+                    {
+                        str = str.Remove(i, 1);
+                        i--;
+                    }
+                }
+            }
+
+            return str;
         }
     }
 }
