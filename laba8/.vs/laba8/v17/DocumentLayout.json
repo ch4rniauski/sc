@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{A056B45E-0A13-4ADF-9F11-B8D5BA33268F}|laba8\\laba8.csproj|solutionrelative:laba8\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A056B45E-0A13-4ADF-9F11-B8D5BA33268F}|laba8\\laba8.csproj|d:\\university\\sc\\laba8\\laba8\\forms\\task3form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A056B45E-0A13-4ADF-9F11-B8D5BA33268F}|laba8\\laba8.csproj|D:\\university\\sc\\laba8\\laba8\\forms\\task3form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A056B45E-0A13-4ADF-9F11-B8D5BA33268F}|laba8\\laba8.csproj|solutionrelative:laba8\\forms\\task3form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,7 +31,7 @@
       "RelativeMoniker": "D:0:0:{A056B45E-0A13-4ADF-9F11-B8D5BA33268F}|laba8\\laba8.csproj|solutionrelative:laba8\\forms\\task1form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A056B45E-0A13-4ADF-9F11-B8D5BA33268F}|laba8\\laba8.csproj|d:\\university\\sc\\laba8\\laba8\\forms\\task4form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A056B45E-0A13-4ADF-9F11-B8D5BA33268F}|laba8\\laba8.csproj|D:\\university\\sc\\laba8\\laba8\\forms\\task4form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A056B45E-0A13-4ADF-9F11-B8D5BA33268F}|laba8\\laba8.csproj|solutionrelative:laba8\\forms\\task4form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "laba8\\Forms\\Task4Form.cs",
               "ToolTip": "D:\\university\\sc\\laba8\\laba8\\Forms\\Task4Form.cs",
               "RelativeToolTip": "laba8\\Forms\\Task4Form.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-15T17:30:09.974Z",
               "EditorCaption": ""
@@ -78,8 +78,7 @@
               "ToolTip": "D:\\university\\sc\\laba8\\laba8\\Forms\\Task4Form.cs [Design]",
               "RelativeToolTip": "laba8\\Forms\\Task4Form.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T17:28:34.808Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-09-15T17:28:34.808Z"
             },
             {
               "$type": "Document",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "laba8\\Forms\\Task3Form.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAIwD0AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:17:33.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T14:17:33.108Z"
             },
             {
               "$type": "Document",
@@ -104,8 +102,7 @@
               "RelativeToolTip": "laba8\\Forms\\Task2Form.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAwwDgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T13:28:24.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T13:28:24.453Z"
             },
             {
               "$type": "Document",
@@ -128,8 +125,7 @@
               "RelativeToolTip": "laba8\\Forms\\Task1Form.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T11:57:02.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T11:57:02.66Z"
             },
             {
               "$type": "Document",
@@ -140,8 +136,7 @@
               "ToolTip": "D:\\university\\sc\\laba8\\laba8\\Forms\\Task2Form.cs [Design]",
               "RelativeToolTip": "laba8\\Forms\\Task2Form.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T13:22:37.505Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-09-15T13:22:37.505Z"
             },
             {
               "$type": "Document",
@@ -152,8 +147,7 @@
               "ToolTip": "D:\\university\\sc\\laba8\\laba8\\Forms\\Task1Form.cs [Design]",
               "RelativeToolTip": "laba8\\Forms\\Task1Form.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T11:56:17.526Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-09-15T11:56:17.526Z"
             },
             {
               "$type": "Document",
@@ -165,8 +159,7 @@
               "RelativeToolTip": "laba8\\Forms\\MainForm.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAewCUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T11:56:27.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T11:56:27.506Z"
             },
             {
               "$type": "Document",
@@ -177,8 +170,7 @@
               "ToolTip": "D:\\university\\sc\\laba8\\laba8\\Forms\\MainForm.cs [Design]",
               "RelativeToolTip": "laba8\\Forms\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T11:55:58.479Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-09-15T11:55:58.479Z"
             }
           ]
         }
