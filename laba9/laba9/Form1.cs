@@ -29,9 +29,24 @@ namespace laba9
 
             else
             {
-                if (label1.Text.Contains("название") && label1.Text.Contains("товара"))
+                if (label1.Text.Contains("Введите название товара"))
                 {
                     SPISOK[_i].TOVAR = textBox1.Text;
+
+                    label1.Text = "Введите название магазина, в котором продается товар";
+                    label1.Left = 211;
+
+                    textBox1.Clear();
+                }
+
+                else if (label1.Text.Contains("Введите название магазина, в котором продается товар"))
+                {
+                    SPISOK[_i].MAG = textBox1.Text;
+
+                    label1.Text = "Введите стоимость товара в руб.";
+                    label1.Left = 290;
+
+                    textBox1.Clear();
                 }
             }
         }
