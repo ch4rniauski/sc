@@ -8,3 +8,13 @@ D:\university\sc\laba9\laba9\obj\Debug\laba9.csproj.GenerateResource.cache
 D:\university\sc\laba9\laba9\obj\Debug\laba9.csproj.CoreCompileInputs.cache
 D:\university\sc\laba9\laba9\obj\Debug\laba9.exe
 D:\university\sc\laba9\laba9\obj\Debug\laba9.pdb
+C:\university\sc\laba9\laba9\bin\Debug\laba9.exe.config
+C:\university\sc\laba9\laba9\bin\Debug\laba9.exe
+C:\university\sc\laba9\laba9\bin\Debug\laba9.pdb
+C:\university\sc\laba9\laba9\obj\Debug\laba9.csproj.AssemblyReference.cache
+C:\university\sc\laba9\laba9\obj\Debug\laba9.Form1.resources
+C:\university\sc\laba9\laba9\obj\Debug\laba9.Properties.Resources.resources
+C:\university\sc\laba9\laba9\obj\Debug\laba9.csproj.GenerateResource.cache
+C:\university\sc\laba9\laba9\obj\Debug\laba9.csproj.CoreCompileInputs.cache
+C:\university\sc\laba9\laba9\obj\Debug\laba9.exe
+C:\university\sc\laba9\laba9\obj\Debug\laba9.pdb

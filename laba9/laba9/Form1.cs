@@ -48,6 +48,37 @@ namespace laba9
 
                     textBox1.Clear();
                 }
+
+                else if (label1.Text.Contains("Введите стоимость товара в руб."))
+                {
+                    string strNumber = textBox1.Text;
+
+                    if (IsNumber(ref strNumber))
+                    {
+                        SPISOK[_i].STOIM = Convert.ToDecimal(strNumber);
+
+                        if (_i == 7)
+                        {
+                            label3.Hide();
+                            button1.Hide();
+                        }
+
+                        else
+                        {
+                            _i++;
+
+                            label1.Text = "Введите название товара";
+                            label1.Left = 312;
+
+                            label3.Text = $"Для {_i + 1}-го товара";
+
+                            textBox1.Clear();
+                        }
+                    }
+
+                    else
+                        ErrorWarning();
+                }
             }
         }
 
@@ -74,6 +105,30 @@ namespace laba9
             }
 
             return str;
+        }
+
+        private bool IsNumber(ref string str)
+        {
+            byte dotCounter = 0;
+
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (((int)str[i] < 48 || (int)str[i] > 57) && (str[i] != ',' && str[i] != '.'))
+                    return false;
+
+                if (str[i] == '.' || str[i] == ',')
+                {
+                    dotCounter++;
+
+                    if (dotCounter > 1)
+                        return false;
+
+                    if (str[i] == '.')
+                        str = str.Replace('.', ',');
+                }
+            }
+
+            return true;
         }
     }
 }
