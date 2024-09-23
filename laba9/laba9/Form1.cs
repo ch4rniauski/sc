@@ -61,6 +61,9 @@ namespace laba9
                         {
                             label3.Hide();
                             button1.Hide();
+                            textBox1.Clear();
+                            label1.Text = "Введите название товара, информацию о котором хотите найти";
+                            label1.Left = 187;
                         }
 
                         else
@@ -129,6 +132,60 @@ namespace laba9
             }
 
             return true;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (button2.Text == "Продолжить")
+            {
+                label1.Text = "Введите название товара, информацию о котором хотите найти";
+                label1.Top = 135;
+                label1.Left = 187;
+
+                textBox1.Clear();
+                textBox1.Show();
+
+                button2.Text = "Ввести";
+                
+            }
+
+            else
+            {
+                if (RemoveSpaces(textBox1.Text) == "")
+                    ErrorWarning();
+
+                else
+                {
+                    string productName = textBox1.Text;
+                    byte coincidences = 0;
+
+                    label1.Text = "";
+
+                    foreach (PRICE item in SPISOK)
+                    {
+                        if (item.TOVAR == productName)
+                        {
+                            coincidences++;
+
+                            if (coincidences > 1)
+                                label1.Text += "\n";
+
+                            label1.Text += $"Название товара: {item.TOVAR}\n";
+                            label1.Text += $"Название магазина, в котором продается товар: {item.MAG}\n";
+                            label1.Text += $"стоимость товара в руб.: {item.STOIM}\n";
+                        }
+                    }
+
+                    button2.Text = "Продолжить";
+                    textBox1.Hide();
+
+                    if (coincidences == 0)
+                        label1.Text = "Товара с данным названием не найдено\n";
+
+                    label1.Left = (this.Width - label1.Width) / 2;
+                    label1.Top = (this.Height - label1.Height) / 2;
+                }
+            }
         }
     }
 }

@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\university\\sc\\laba9\\",
+  "WorkspaceRootPath": "D:\\university\\sc\\laba9\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DCD635E3-3BDF-4CA6-9054-A1F4E210341D}|laba9\\laba9.csproj|c:\\university\\sc\\laba9\\laba9\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCD635E3-3BDF-4CA6-9054-A1F4E210341D}|laba9\\laba9.csproj|solutionrelative:laba9\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCD635E3-3BDF-4CA6-9054-A1F4E210341D}|laba9\\laba9.csproj|d:\\university\\sc\\laba9\\laba9\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCD635E3-3BDF-4CA6-9054-A1F4E210341D}|laba9\\laba9.csproj|solutionrelative:laba9\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCD635E3-3BDF-4CA6-9054-A1F4E210341D}|laba9\\laba9.csproj|C:\\university\\sc\\laba9\\laba9\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DCD635E3-3BDF-4CA6-9054-A1F4E210341D}|laba9\\laba9.csproj|solutionrelative:laba9\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DCD635E3-3BDF-4CA6-9054-A1F4E210341D}|laba9\\laba9.csproj|D:\\university\\sc\\laba9\\laba9\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCD635E3-3BDF-4CA6-9054-A1F4E210341D}|laba9\\laba9.csproj|solutionrelative:laba9\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,24 +26,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\university\\sc\\laba9\\laba9\\Form1.cs",
+              "DocumentMoniker": "D:\\university\\sc\\laba9\\laba9\\Form1.cs",
               "RelativeDocumentMoniker": "laba9\\Form1.cs",
-              "ToolTip": "C:\\university\\sc\\laba9\\laba9\\Form1.cs*",
+              "ToolTip": "D:\\university\\sc\\laba9\\laba9\\Form1.cs*",
               "RelativeToolTip": "laba9\\Form1.cs*",
-              "ViewState": "AgIAADMAAAAAAAAAAADgvzgAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAALkAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T18:38:18.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\university\\sc\\laba9\\laba9\\Form1.cs",
+              "DocumentMoniker": "D:\\university\\sc\\laba9\\laba9\\Form1.cs",
               "RelativeDocumentMoniker": "laba9\\Form1.cs",
-              "ToolTip": "C:\\university\\sc\\laba9\\laba9\\Form1.cs [Design]*",
+              "ToolTip": "D:\\university\\sc\\laba9\\laba9\\Form1.cs [Design]*",
               "RelativeToolTip": "laba9\\Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T18:27:48.773Z",
