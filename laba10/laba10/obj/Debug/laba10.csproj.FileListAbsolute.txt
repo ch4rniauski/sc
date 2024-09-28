@@ -1,0 +1,12 @@
+D:\university\sc\laba10\laba10\bin\Debug\laba10.exe.config
+D:\university\sc\laba10\laba10\bin\Debug\laba10.exe
+D:\university\sc\laba10\laba10\bin\Debug\laba10.pdb
+D:\university\sc\laba10\laba10\obj\Debug\laba10.csproj.AssemblyReference.cache
+D:\university\sc\laba10\laba10\obj\Debug\laba10.MainForm.resources
+D:\university\sc\laba10\laba10\obj\Debug\laba10.Properties.Resources.resources
+D:\university\sc\laba10\laba10\obj\Debug\laba10.csproj.GenerateResource.cache
+D:\university\sc\laba10\laba10\obj\Debug\laba10.csproj.CoreCompileInputs.cache
+D:\university\sc\laba10\laba10\obj\Debug\laba10.exe
+D:\university\sc\laba10\laba10\obj\Debug\laba10.pdb
+D:\university\sc\laba10\laba10\obj\Debug\laba10.Forms.Task1Form.resources
+D:\university\sc\laba10\laba10\obj\Debug\laba10.Forms.Task2Form.resources
