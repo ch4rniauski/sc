@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\university\\sc\\laba9\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DCD635E3-3BDF-4CA6-9054-A1F4E210341D}|laba9\\laba9.csproj|D:\\university\\sc\\laba9\\laba9\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DCD635E3-3BDF-4CA6-9054-A1F4E210341D}|laba9\\laba9.csproj|d:\\university\\sc\\laba9\\laba9\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCD635E3-3BDF-4CA6-9054-A1F4E210341D}|laba9\\laba9.csproj|solutionrelative:laba9\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCD635E3-3BDF-4CA6-9054-A1F4E210341D}|laba9\\laba9.csproj|d:\\university\\sc\\laba9\\laba9\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DCD635E3-3BDF-4CA6-9054-A1F4E210341D}|laba9\\laba9.csproj|D:\\university\\sc\\laba9\\laba9\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DCD635E3-3BDF-4CA6-9054-A1F4E210341D}|laba9\\laba9.csproj|solutionrelative:laba9\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -32,10 +32,14 @@
               "RelativeDocumentMoniker": "laba9\\Form1.cs",
               "ToolTip": "D:\\university\\sc\\laba9\\laba9\\Form1.cs",
               "RelativeToolTip": "laba9\\Form1.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAAAI0AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAnwG4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T18:38:18.111Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
@@ -46,8 +50,7 @@
               "ToolTip": "D:\\university\\sc\\laba9\\laba9\\Form1.cs [Design]",
               "RelativeToolTip": "laba9\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T18:27:48.773Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-09-18T18:27:48.773Z"
             }
           ]
         }
