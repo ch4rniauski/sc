@@ -28,7 +28,7 @@
                 ErrorWarning();
             else
             {
-                _str = textBox1.Text;
+                _str = textBox1.Text.Replace(',', '.');
                 button2.Hide();
                 textBox1.Hide();
                 label1.Text = $"Изначальное выражение: {textBox1.Text}";
@@ -127,7 +127,7 @@
 
                         for (; j > -1; j--)
                         {
-                            if ((((int)str[j] < 48 || (int)str[j] > 57) && str[j] != '-') || j == 0)
+                            if ((((int)str[j] < 48 || (int)str[j] > 57) && str[j] != '-' && str[j] != '.') || j == 0)
                             {
                                 if (j > 0)
                                     j++;
@@ -141,7 +141,7 @@
 
                         for (; k < str.Length; k++)
                         {
-                            if ((((int)str[k] < 48 || (int)str[k] > 57) && k != i + 1) || k == str.Length - 1)
+                            if ((((int)str[k] < 48 || (int)str[k] > 57) && k != i + 1 && str[k] != '.') || k == str.Length - 1)
                             {
                                 if (k < str.Length - 1)
                                     k--;
@@ -182,7 +182,7 @@
 
                         for (; j > -1; j--)
                         {
-                            if (((int)str[j] < 48 || (int)str[j] > 57 || j == 0) && str[j] != '-')
+                            if (((int)str[j] < 48 || (int)str[j] > 57 || j == 0) && str[j] != '-' && str[j] != '.')
                             {
                                 if (j > 0)
                                     j++;
@@ -196,7 +196,7 @@
 
                         for (; k < str.Length; k++)
                         {
-                            if ((int)str[k] < 48 || (int)str[k] > 57 || k == str.Length - 1)
+                            if (((int)str[k] < 48 || (int)str[k] > 57 || k == str.Length - 1) && str[k] != '.')
                             {
                                 if (k < str.Length - 1)
                                     k--;
@@ -228,31 +228,31 @@
         {
             if (sign == '+')
             {
-                _operandsStack = new(Convert.ToInt32(firstNumber), Convert.ToInt32(secondNumber), _operandsStack);
+                _operandsStack = new(Convert.ToDouble(firstNumber), Convert.ToDouble(secondNumber), _operandsStack);
                 _operatorsStack = new(sign, _operatorsStack);
                 ChangeLables();
-                return Convert.ToString(Convert.ToInt32(firstNumber) + Convert.ToInt32(secondNumber));
+                return Convert.ToString(_operandsStack.Operands[0] + _operandsStack.Operands[1]);
             }
             else if (sign == '-')
             {
-                _operandsStack = new(Convert.ToInt32(firstNumber), Convert.ToInt32(secondNumber), _operandsStack);
+                _operandsStack = new(Convert.ToDouble(firstNumber), Convert.ToDouble(secondNumber), _operandsStack);
                 _operatorsStack = new(sign, _operatorsStack);
                 ChangeLables();
-                return Convert.ToString(Convert.ToInt32(firstNumber) - Convert.ToInt32(secondNumber));
+                return Convert.ToString(_operandsStack.Operands[0] - _operandsStack.Operands[1]);
             }
             else if (sign == '*')
             {
-                _operandsStack = new(Convert.ToInt32(firstNumber), Convert.ToInt32(secondNumber), _operandsStack);
+                _operandsStack = new(Convert.ToDouble(firstNumber), Convert.ToDouble(secondNumber), _operandsStack);
                 _operatorsStack = new(sign, _operatorsStack);
                 ChangeLables();
-                return Convert.ToString(Convert.ToInt32(firstNumber) * Convert.ToInt32(secondNumber));
+                return Convert.ToString(_operandsStack.Operands[0] * _operandsStack.Operands[1]);
             }
             else
             {
-                _operandsStack = new(Convert.ToInt32(firstNumber), Convert.ToInt32(secondNumber), _operandsStack);
+                _operandsStack = new(Convert.ToDouble(firstNumber), Convert.ToDouble(secondNumber), _operandsStack);
                 _operatorsStack = new(sign, _operatorsStack);
                 ChangeLables();
-                return Convert.ToString(Convert.ToInt32(firstNumber) / Convert.ToInt32(secondNumber));
+                return Convert.ToString(_operandsStack.Operands[0] / _operandsStack.Operands[1]);
             }
         }
 
@@ -290,10 +290,10 @@
 
         private class OperandsNode
         {
-            public int[] Operands = new int[2];
+            public double[] Operands = new double[2];
             public OperandsNode? Next { get; set; }
 
-            public OperandsNode(int firstNumber, int secondNumber, OperandsNode? prevOperand)
+            public OperandsNode(double firstNumber, double secondNumber, OperandsNode? prevOperand)
             {
                 Operands[0] = firstNumber;
                 Operands[1] = secondNumber;
